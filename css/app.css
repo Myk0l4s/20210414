@@ -95,12 +95,36 @@ h6 {
 }
 
 .wrapper .battery {
-  width: 20%;
-  height: 60%;
+  width: 25%;
+  height: 80%;
   border: 1px solid white;
   border-radius: 5px;
   display: inline-block;
   position: absolute;
+}
+
+@media (max-width: 920px) {
+  .wrapper .battery {
+    width: 40%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper .battery {
+    width: 40%;
+    height: 60%;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper .battery {
+    width: 45%;
+    height: 55%;
+    padding: 10px;
+    padding-top: 25px;
+  }
 }
 
 .wrapper .battery .battery__block1 {
