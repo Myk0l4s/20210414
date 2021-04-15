@@ -1,4 +1,106 @@
 .wrapper {
     width: 100%;
     height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .battery {
+        width: 20%;
+        height: 50%;
+        border: 1px solid white;
+        border-radius: 5px;
+        .battery__block1 {
+            color: white;
+            width: 90%;
+            height: 21%;
+            border: 1px solid white;
+            margin: 5%;
+            margin-top: 7%;
+            border-radius: 5px;
+            animation-name: color;
+            animation: color 4s steps(1, end) infinite;
+        }
+        .battery__block2 {
+            color: white;
+            width: 90%;
+            height: 21%;
+            border: 1px solid white;
+            margin: 5%;
+            border-radius: 5px;
+            animation-name: color;
+            animation: color2 4s steps(1, end) infinite;
+        }
+        .battery__block3 {
+            color: white;
+            width: 90%;
+            height: 21%;
+            border: 1px solid white;
+            margin: 5%;
+            border-radius: 5px;
+            animation-name: color;
+            animation: color3 4s steps(1, end) infinite;
+        }
+        .battery__block4 {
+            color: white;
+            width: 90%;
+            height: 21%;
+            border: 1px solid white;
+            margin: 5%;
+            border-radius: 5px;
+            animation-name: color;
+            animation: color4 4s steps(1, end) infinite;
+        }
+    }
+}
+
+
+
+@keyframes color {
+    75%  {
+        background-color:rgba(41, 102, 41, 0.651);
+    }
+    
+}
+
+@keyframes color2 {
+    50%  {
+        background-color:rgb(121, 211, 113);
+    }
+    
+    75%  {
+        background-color:rgba(41, 102, 41, 0.651);
+    }
+}
+
+@keyframes color3 {
+    25%  {
+        background-color: rgb(231, 144, 29);
+    }
+    50%  {
+        background-color:rgb(121, 211, 113);
+    }
+    
+    75%  {
+        background-color:rgba(41, 102, 41, 0.651);
+    }
+}
+
+@keyframes color4 {
+    0% {
+        background-color: darkred;
+    }
+
+    25%  {
+        background-color: rgb(231, 144, 29);
+    }
+    
+    50%  {
+        background-color:rgb(121, 211, 113);
+    }
+    
+    75%  {
+        background-color:rgba(41, 102, 41, 0.651);
+    }
+
 }
