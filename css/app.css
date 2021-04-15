@@ -96,18 +96,20 @@ h6 {
 
 .wrapper .battery {
   width: 20%;
-  height: 50%;
+  height: 60%;
   border: 1px solid white;
   border-radius: 5px;
+  display: inline-block;
+  position: absolute;
 }
 
 .wrapper .battery .battery__block1 {
   color: white;
+  position: relative;
   width: 90%;
   height: 21%;
   border: 1px solid white;
   margin: 5%;
-  margin-top: 7%;
   border-radius: 5px;
   animation-name: color;
   animation: color 4s steps(1, end) infinite;
@@ -115,6 +117,7 @@ h6 {
 
 .wrapper .battery .battery__block2 {
   color: white;
+  position: relative;
   width: 90%;
   height: 21%;
   border: 1px solid white;
@@ -126,6 +129,7 @@ h6 {
 
 .wrapper .battery .battery__block3 {
   color: white;
+  position: relative;
   width: 90%;
   height: 21%;
   border: 1px solid white;
@@ -137,6 +141,7 @@ h6 {
 
 .wrapper .battery .battery__block4 {
   color: white;
+  position: relative;
   width: 90%;
   height: 21%;
   border: 1px solid white;
